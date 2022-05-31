@@ -45,13 +45,10 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: rgb(42, 53, 170);
+  background: rgb(21, 119, 205);
   backface-visibility: hidden;
 }
 
-.card-back {
-    background-color: rgb(42, 53, 170);
-}
 
 .card-front {
     transform: rotateY( 180deg);
