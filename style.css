@@ -16,6 +16,7 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 
@@ -24,13 +25,17 @@ body {
     width: calc(25% - 10px);
     margin: 5px;
     position: relative;
-    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 1px 1px 1px rgba(38, 11, 214, 0.59);
     cursor: pointer;
-    transform: scale(1)
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .9s; 
+    border-radius: 5px;
 }
 
 .card:active{
-    
+    transform: scale(0.97);
+    transition: transform 0.2;
 }
 
 .card-front,
@@ -42,4 +47,21 @@ body {
   border-radius: 5px;
   background: rgb(42, 53, 170);
   backface-visibility: hidden;
+}
+
+.card-back {
+    background-color: rgb(42, 53, 170);
+}
+
+.card-front {
+    transform: rotateY( 180deg);
+}
+
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+#tpg{
+    border-radius: 5px;
 }
