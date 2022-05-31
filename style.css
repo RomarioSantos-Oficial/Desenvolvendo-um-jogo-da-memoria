@@ -6,26 +6,69 @@
 
 body {
     height: 100vh;
-    display: flex;
-    background-color: green;
+    display: center;
+    background-image: url(image/pokemon-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+#reset {
+    width:200px; 
+    height:40px; 
+    align-items: center ;
+    justify-content: center;
+    margin:auto;
+    border-radius: 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgba(32, 124, 223, 0.831);
+    transition: 1s;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:640px;
+    height:50px;
+    margin:auto;
+    background-color:rgba(38, 11, 214, 0.69);
+    font-family:Arial;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
 
 .memory-game {
     height: 640px;
     width: 640px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     perspective: 1000px;
 }
 
 
 .card {
-    height: calc( 33.333% - 10px);
-    width: calc(25% - 10px);
-    margin: 5px;
+    height: calc(20% - 10px);
+    width: calc(20% - 10px);
+    margin: 4px;
     position: relative;
-    box-shadow: 1px 1px 1px rgba(38, 11, 214, 0.59);
+    box-shadow: 2px 2px 2px rgba(38, 11, 214, 0.59);
     cursor: pointer;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -42,7 +85,7 @@ body {
 .card-back {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
   position: absolute;
   border-radius: 5px;
   background: rgb(21, 119, 205);
@@ -61,4 +104,19 @@ body {
 
 #tpg{
     border-radius: 5px;
+}
+
+
+.fim {
+    width:400px; 
+    height:30px; 
+    padding: auto;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    background-color: rgba(38, 11, 214, 0.59);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    position: fixed;
 }

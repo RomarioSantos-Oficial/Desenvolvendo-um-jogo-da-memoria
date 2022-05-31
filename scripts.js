@@ -51,7 +51,7 @@ function resetBoard(){
 
 (function shuffle() {
     cards.forEach((card) => {
-        let ramdomPosition = Math.floor(Math.random() * 12);
+        let ramdomPosition = Math.floor(Math.random() * 30);
         card.style.order = ramdomPosition;
     })
 }) ();
@@ -59,3 +59,13 @@ function resetBoard(){
 cards.forEach((card) => {
     card.addEventListener('click', flipCard)
 });
+
+
+
+/*botão de restatt*/
+
+const btn = document.querySelector('#reset')
+
+btn.addEventListener('click', () => {
+    location.reload()
+})
