@@ -14,43 +14,6 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.topo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:50px;
-    color: aliceblue;
-    border-radius: 15px;
-}
-
-#reset {
-    width:200px; 
-    height:40px; 
-    align-items: center ;
-    justify-content: center;
-    margin:auto;
-    border-radius: 15px;
-    background-color: aqua;
-    cursor: pointer;
-}
-
-#reset:hover {
-    background-color: rgba(32, 124, 223, 0.831);
-    transition: 1s;
-}
-
-.titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:640px;
-    height:50px;
-    margin:auto;
-    background-color:rgba(38, 11, 214, 0.69);
-    font-family:Arial;
-    color: aliceblue;
-    border-radius: 15px;
-}
 
 
 .memory-game {
@@ -106,7 +69,7 @@ body {
     border-radius: 5px;
 }
 
-
+/* rodpé*/
 .fim {
     width:400px; 
     height:30px; 
@@ -119,4 +82,44 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     position: fixed;
+}
+
+/* botão e titulos*/
+
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+#reset {
+    width:200px; 
+    height:40px; 
+    align-items: center ;
+    justify-content: center;
+    margin:auto;
+    border-radius: 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgba(32, 124, 223, 0.831);
+    transition: 1s;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:640px;
+    height:50px;
+    margin:auto;
+    background-color:rgba(38, 11, 214, 0.69);
+    font-family:Arial;
+    color: aliceblue;
+    border-radius: 15px;
 }
