@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding:0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -96,6 +96,7 @@ body {
 }
 
 #reset {
+    font-family:Arial;
     width:200px; 
     height:40px; 
     align-items: center ;
@@ -118,7 +119,7 @@ body {
     width:640px;
     height:50px;
     margin:auto;
-    background-color:rgba(38, 11, 214, 0.69);
+    background-color:rgba(52, 24, 235, 0.623);
     font-family:Arial;
     color: aliceblue;
     border-radius: 15px;
