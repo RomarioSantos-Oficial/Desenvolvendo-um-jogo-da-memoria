@@ -4,5 +4,4 @@
  Esse projeto e refazer um jogo da memoria baseado no anime de pokemo.
 
  <img src="/image/Picachu gif.gif">
-
-<link> https://romariosantos-oficial.github.io/Desenvolvendo-um-jogo-da-memoria/
+ ![Alt text] (<./image/Romario.png>)
