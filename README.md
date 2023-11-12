@@ -3,6 +3,6 @@
 
  Esse projeto e refazer um jogo da memoria baseado no anime de pokemo.
 
- <img src="/image/Picachu gif.gif">
-
  ![Alt text](./image/Romario.png)
+ 
+ <img src="/image/Picachu gif.gif">
